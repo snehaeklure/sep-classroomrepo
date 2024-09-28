@@ -20,16 +20,40 @@ public class Account
 		Password = PassW;
 	}
 
+
+#feature2.2 changes done by Vinay on Reorts module for HDFC Project in Oct2023
+
+public void display1() {
+    System.out.println("Method without parameter");
+  }
+
+  // method with single parameter
+  public void display2(int a) {
+    System.out.println("Method with a single parameter: " + a);
+=======
 #feature2.1 changes done by Developer Vivek for the Module UsersLoginModule in HDFC Project in Oct2023
 
 public int addNumbers(int a, int b) {
     int sum = a + b;
     // return value
     return sum;
+
   }
 
   public static void main(String[] args) {
     
+
+    // create an object of Main
+    Main obj = new Main();
+
+    // calling method with no parameter
+    obj.display1();
+    
+    // calling method with the single parameter
+    obj.display2(24);
+  }
+#End of feature2.2 
+=======
     int num1 = 25;
     int num2 = 15;
 
@@ -40,6 +64,7 @@ public int addNumbers(int a, int b) {
     System.out.println("Sum is: " + result);
   }
 # End of feature2.1
+
 
     public boolean signUp() {
 		boolean done = !Username.equals("") && !Password.equals("") && !Password1.equals("") && Password.equals(Password1);
